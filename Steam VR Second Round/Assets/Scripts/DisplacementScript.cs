@@ -21,7 +21,7 @@ public class DisplacementScript : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            displacementAmount += 0.01f;
+            displacementAmount += 0.001f;
             //explosionParticles.Play();
         }
     }
